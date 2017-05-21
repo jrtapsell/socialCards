@@ -4,6 +4,7 @@
 
 .gravatar-card-name {
     font-size: 1.5em;
+    color: #ffffff;
 }
 
 .gravatar-card-icon {
@@ -15,7 +16,7 @@
     padding: 15px 0;
     margin: 15px;
     border-radius: 1em;
-    background: #ccc;
+    background: #202a30;
     box-shadow: 0.2em 0.2em 0.2em;
     display: flex;
 }
