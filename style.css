@@ -5,12 +5,15 @@
 .gravatar-card-name {
     font-size: 1.5em;
     color: #ffffff;
+    font-weight:600;
+    text-align: center;
 }
 
 .gravatar-card-icon {
     margin-bottom: initial !important;
     padding-left: 1em;
     height: 6em;
+    width: 7em;
 }
 .gravatar-card-outer {
     padding: 15px 0;
