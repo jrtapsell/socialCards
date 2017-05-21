@@ -10,7 +10,7 @@ function make_tag($icon, $name, $site, $site_text)
 				<img class="gravatar-card-icon" src="' . $icon . '"/>
 				<div class="gravatar-text-area col-md-8">
 					<div class="gravatar-card-name">' . $name . '</div>
-					<div class="gravatar-card-website"><a href="' . $site . '"><button>' . $site_text . '</button></a></div>
+					<div class="gravatar-card-website"><a href="' . $site . '"><button class="gravatar-card-button">' . $site_text . '</button></a></div>
 				</div>
 				</div>
 			</div>';

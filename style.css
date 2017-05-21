@@ -23,3 +23,7 @@
     box-shadow: 0.2em 0.2em 0.2em;
     display: flex;
 }
+
+.gravatar-card-button {
+    width: 100%;
+}
