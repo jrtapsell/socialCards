@@ -1,0 +1,21 @@
+.gravatar-card-outer {
+    display: inline-block;
+}
+
+.gravatar-card-name {
+    font-size: 1.5em;
+}
+
+.gravatar-card-icon {
+    margin-bottom: initial !important;
+    padding-left: 1em;
+    height: 6em;
+}
+.gravatar-card-outer.col-md-4 {
+    padding: 15px 0;
+    margin: 15px;
+    border-radius: 1em;
+    background: #ccc;
+    box-shadow: 0.2em 0.2em 0.2em;
+    display: flex;
+}
