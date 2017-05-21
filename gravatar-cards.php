@@ -47,8 +47,8 @@ function keybasetag($atts){
         $name = $profile["basics"]["username"];
         $icon = $profile["pictures"]["primary"]["url"];
         $proofs = $profile["proofs_summary"]["by_proof_type"];
-        $site = "/";
-        $site_text = "No Website";
+        $site = "https://keybase.io/" . $wporg_atts["username"];
+        $site_text = "Profile";
         if (array_key_exists("dns", $proofs)) {
                 $site = $proofs["dns"]["0"]["service_url"];
                 $site_text = "Website";
