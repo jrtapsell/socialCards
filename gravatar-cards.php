@@ -5,7 +5,7 @@ Plugin Name: Awesomeness Creator
 
 function make_tag($icon, $name, $site, $site_text)
 {
-        return '<div class="col-md-4">
+        return '<div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="gravatar-card-outer">
 				<img class="gravatar-card-icon" src="' . $icon . '"/>
 				<div class="gravatar-text-area col-md-8">
